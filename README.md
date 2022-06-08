@@ -1,5 +1,5 @@
 # DepotStage
 
-## Need to configure th db.env file in docker folder
+1 Need to configure th db.env file in docker folder
 
-## Launch docker-compose up -d
+2 Launch docker-compose up -d
