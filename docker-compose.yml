@@ -84,7 +84,17 @@ services:
       - docker-entrypoint.sh
       - solr-precreate
       - seek
-      - /opt/solr/server/solr/configsets/seek_config      
+      - /opt/solr/server/solr/configsets/seek_config 
+      
+  jupyter:
+    image: jupyterlab:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - my_volume:/project
+    environment:
+      JUPYTER_TOKEN: "docker"
+
 
 
 volumes:
