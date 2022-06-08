@@ -1,0 +1,56 @@
+{
+  "data": {
+    "type": "projects",
+    "attributes": {
+      "avatar": null,
+      "title": "Project 1",
+      "description": "A Taverna project",
+      "web_page": "http://www.taverna.org.uk",
+      "wiki_page": "http://www.mygrid.org.uk",
+      "default_license": "Other (Open)",
+      "default_policy": {
+        "access": "no_access",
+        "permissions": [
+          {
+            "resource": {
+              "id": "1",
+              "type": "people"
+            },
+            "access": "manage"
+          },
+          {
+            "resource": {
+              "id": "5",
+              "type": "people"
+            },
+            "access": "manage"
+          },
+          {
+            "resource": {
+              "id": "2",
+              "type": "projects"
+            },
+            "access": "download"
+          },
+          {
+            "resource": {
+              "id": "2",
+              "type": "institutions"
+            },
+            "access": "view"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "programmes": {
+        "data": [
+          {
+            "id": "1",
+            "type": "programmes"
+          }
+        ]
+      }
+    }
+  }
+}

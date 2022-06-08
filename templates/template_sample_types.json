@@ -1,0 +1,35 @@
+{
+  "data": {
+    "type": "sample_types",
+    "attributes": {
+      "tags": [
+        "string"
+      ],
+      "title": "string",
+      "description": "string",
+      "sample_attributes": [
+        {
+          "id": "string",
+          "title": "string",
+          "sample_attribute_type": {},
+          "required": true,
+          "pos": 0,
+          "unit": "string",
+          "is_title": true,
+          "sample_controlled_vocab_id": 0,
+          "linked_sample_type_id": 0
+        }
+      ]
+    },
+    "relationships": {
+      "projects": {
+        "data": [
+          {
+            "id": "string",
+            "type": "projects"
+          }
+        ]
+      }
+    }
+  }
+}
