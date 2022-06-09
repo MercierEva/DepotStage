@@ -106,4 +106,5 @@ volumes:
     external: true
   seek-cache:
     external: true
-
+  my_volume:
+    external: true
