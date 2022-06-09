@@ -1,6 +1,6 @@
 # DepotStage
 
-- Need to configure th db.env file in docker folder with your password
+- Need to configure the db.env file in docker folder with your password
 
 - $cd jupyterDocker && docker build -t jupyterlab:latest .
 
